@@ -28,7 +28,7 @@ rss: /atom.xml
 menu:
   home: /
   categories: /categories
-  #about: /about
+  about: /About
   archives: /archives
   #tags: /tags
   #commonweal: /404.html
@@ -57,8 +57,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -70,7 +70,9 @@ scheme: Muse
 
 # Social links
 social:
-  GitHub: https://github.com/slackwarecn
+  Github首页: https://github.com/slackwarecn
+  Slackware吧: http://tieba.baidu.com/f?kw=slackware
+  Slackware技术支持: http://www.slackware.com.cn
   #Others:
 
 # Social Icons
