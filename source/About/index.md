@@ -2,7 +2,7 @@ title: 关于Slackware 中文社区
 date: 2016-02-29 20:46:05
 ---
 
-Slackware Linux 14.2 即将发布，这也成了实现我酝酿已久的Slackware Linux 中文社区计划的契机。
+Slackware Linux 14.2 即将发布，这也成了我去实现酝酿已久的Slackware Linux 中文社区计划的契机。
 
 当前Slackware Linux 几乎在被遗忘的边缘，用户流失严重，而少有新鲜血液输入。造成这种情况的原因除了和系统本身的设计理念有关之外，很大的一个原因是社区的默默无闻，文档和工具都处于年久失修的状态。
 
