@@ -29,6 +29,7 @@ menu:
   home: /
   categories: /categories
   about: /About
+  joinus: /JoinUs
   archives: /archives
   #tags: /tags
   #commonweal: /404.html
@@ -58,8 +59,8 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-scheme: Mist
-#scheme: Pisces
+#scheme: Mist
+scheme: Pisces
 
 
 
@@ -70,11 +71,11 @@ scheme: Mist
 
 # Social links
 social:
-  Slackware: http://www.slackware.com
-  SlackDocs: http://docs.slackware.com/
-  Github组织: https://github.com/slackwarecn
-  Slackware吧: http://tieba.baidu.com/f?kw=slackware
-  Slackware技术支持: http://www.slackware.com.cn
+  官网: http://www.slackware.com
+  官方文档: http://docs.slackware.com/
+  Github: https://github.com/slackwarecn
+  百度贴吧: http://tieba.baidu.com/f?kw=slackware
+  技术支持: http://www.slackware.com.cn
   #Others:
 
 # Social Icons
