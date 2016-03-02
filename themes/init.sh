@@ -13,9 +13,12 @@ function initTheme {
     rm -f $GITKEEP
   fi
 
-  find $LANGDIR -name '*.yml' -type f | \
-    xargs -I {} grep -LP 'joinus:' {} | \
-    xargs -I {} sed -i 's/menu:/menu:\n  joinus: Join US/' {}
+  if [[ -d $LANGDIR ]]
+  then
+    find $LANGDIR -name '*.yml' -type f | \
+      xargs -I {} grep -LP 'joinus:' {} | \
+      xargs -I {} sed -i 's/menu:/menu:\n  joinus: Join US/' {}
+  fi
 
   return $?
 }
