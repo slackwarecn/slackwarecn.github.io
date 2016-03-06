@@ -1,7 +1,7 @@
 title: Welcome To Slackware Linux CN Community
 date: 2016-02-29 19:02:25
 categories:
-  - 消息发布
+  - 社区消息发布
 tags:
   - 欢迎
 ---
