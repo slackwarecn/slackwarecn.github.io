@@ -5,6 +5,12 @@
 
 C_DIR=$(dirname $(readlink -f $0))
 MY_DIR=${C_DIR}/my
+THEME_DIR=${C_DIR}/themes
+
+if [[ -d $THEME_DIR && -x ${THEME_DIR}/init.sh ]]
+then
+  source ${THEME_DIR}/init.sh
+fi
 
 if [[ ! -d $MY_DIR ]]
 then
