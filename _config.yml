@@ -69,7 +69,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: hexo-theme-next
+theme: hexo-theme-freemind.386
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
