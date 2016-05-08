@@ -10,13 +10,9 @@ Slackware Linux 14.2 即将发布，这成了我去实现酝酿已久的Slackwar
 
 所以我有了这个计划，即在Github 上成立一个组织并试图和志同道合之士为Slackware Linux 做一些力所能及的贡献——无论是一些小脚本，亦或是文档翻译。我想有人试着去分享，总是一个好的开始。
 
-感谢您的阅读，并[期待您的加入][ID_JOINUS]。
-
-[ID_JOINUS]: /JoinUs "加入我们！"
+感谢您的阅读，并[期待您的加入](/JoinUs "加入我们！")。
 
 ---
 
-你可以在此留言。
-
-2016 年春，[Arondight](http://arondight.github.io)。
+2016 年春，[愛と奇跡の物語](http://arondight.github.io)。
 
