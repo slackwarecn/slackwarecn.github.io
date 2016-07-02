@@ -3,13 +3,26 @@
 # Generate It!
 # ==============================================================================
 
-C_DIR=$(dirname $(readlink -f $0))
-BUILD_SH=$C_DIR/build.sh
+function doGenerate ()
+{
+  local C_DIR=$(dirname $(readlink -f $0))
+  local BUILD_SH="${C_DIR}/build.sh"
 
-if [[ -r $BUILD_SH ]]
+  if [[ -r $BUILD_SH ]]
+  then
+    source $BUILD_SH
+  fi
+
+  hexo clean
+  hexo generate
+
+  return $?
+}
+
+doGenerate
+
+if [[ 0 -ne $? ]]
 then
-  source $BUILD_SH
+  exit $?
 fi
-
-env hexo generate
 
