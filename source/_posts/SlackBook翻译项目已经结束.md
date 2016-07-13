@@ -12,3 +12,5 @@ tags:
 
 如果你发现翻译上的错误、不通顺和其他可改进的地方，请[提出你的意见](https://github.com/slackwarecn/slackbook_cn/issues)，非常感谢。
 
+The Slackware Linux CN Community
+

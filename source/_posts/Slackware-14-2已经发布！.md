@@ -1,4 +1,4 @@
-title: ' Slackware 14.2 已经发布！'
+title: 'Slackware 14.2已经发布！'
 date: 2016-07-02 13:54:54
 categories:
   - 官方信息发布

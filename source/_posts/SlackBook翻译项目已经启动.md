@@ -10,5 +10,7 @@ tags:
 
 请期待项目的最终完成，感谢您的关注。
 
+The Slackware Linux CN Community
+
 [ID_SLACKBOOK_ORIGIN]: http://slackbook.org/beta "查看原始文档"
 
