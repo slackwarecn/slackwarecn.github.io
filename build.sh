@@ -2,16 +2,17 @@
 # ==============================================================================
 # Build It!
 # ==============================================================================
+set -e
 
 function doBuild ()
 {
   local C_DIR=$(dirname $(readlink -f $0))
-  local MY_DIR=${C_DIR}/my
-  local THEME_DIR=${C_DIR}/themes
+  local MY_DIR="${C_DIR}/my"
+  local THEME_DIR="${C_DIR}/themes"
 
   if [[ -d $THEME_DIR && -x ${THEME_DIR}/init.sh ]]
   then
-    source ${THEME_DIR}/init.sh
+    source "${THEME_DIR}/init.sh"
   fi
 
   if [[ ! -d $MY_DIR ]]
@@ -21,7 +22,7 @@ function doBuild ()
 
   if type rsync >/dev/null 2>&1
   then
-    rsync -aP ${MY_DIR}/ $C_DIR/
+    rsync -aP "${MY_DIR}/" "$C_DIR/"
   elif type cp >/dev/null 2>&1
   then
     cp -rvf ${MY_DIR}/* $C_DIR

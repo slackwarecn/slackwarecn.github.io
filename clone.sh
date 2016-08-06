@@ -2,6 +2,7 @@
 # ==============================================================================
 # Clone It!
 # ==============================================================================
+set -e
 
 function doClone ()
 {
@@ -9,7 +10,7 @@ function doClone ()
   local GIT_DIR="${C_DIR}/.deploy_git"
   local CONFIG_YML="${C_DIR}/_config.yml"
   local REG_URL='https?://(([\w\d\.-]+\.\w{2,6})|(\d{1,3}(\.\d{1,3}){3}))(:\d{1,4})*(/[\w\d\&%\./-~-]*)?'
-  local REG_BRANCH='(?<=^branch:)[\w]+'
+  local REG_BRANCH='(?<=branch:)[\w]+'
   local DEFAULT_BRANCH='master'
   local DEPLOY_INFO=''
   local REPOSITORY=''
