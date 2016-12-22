@@ -2,7 +2,7 @@
 # ==============================================================================
 # Init It!
 # ==============================================================================
-set -e
+set -ex
 
 function doInit ()
 {
@@ -44,7 +44,7 @@ function doInit ()
 
   if [[ -r $CLONE_SH ]]
   then
-    source $CLONE_SH
+    command $CLONE_SH
   fi
 
   if [[ -r $GITMODULES && -d ${C_DIR}/.git ]]
@@ -59,12 +59,12 @@ function doInit ()
 
   if [[ -r $BUILD_SH ]]
   then
-    source $BUILD_SH
+    command $BUILD_SH
   fi
 
   if [[ -r ${THEME_DIR}/init.sh ]]
   then
-    source ${THEME_DIR}/init.sh
+    command ${THEME_DIR}/init.sh
   fi
 
   return $?

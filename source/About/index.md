@@ -14,5 +14,5 @@ Slackware Linux 14.2 即将发布，这成了我去实现酝酿已久的Slackwar
 
 ---
 
-2016 年春，[愛と奇跡の物語](http://arondight.github.io)。
+2016 年春，[I&ME](http://arondight.github.io)。
 

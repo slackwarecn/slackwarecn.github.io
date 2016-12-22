@@ -2,7 +2,7 @@
 # ==============================================================================
 # Deploy It!
 # ==============================================================================
-set -e
+set -ex
 
 function doDeploy ()
 {
@@ -12,12 +12,12 @@ function doDeploy ()
 
   if [[ -r $GENERATE_SH ]]
   then
-    source $GENERATE_SH
+    command $GENERATE_SH
   fi
 
   if [[ -r $CLONE_SH ]]
   then
-    source $CLONE_SH
+    command $CLONE_SH
   fi
 
   hexo deploy

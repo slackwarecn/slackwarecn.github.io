@@ -2,7 +2,7 @@
 # ==============================================================================
 # Generate It!
 # ==============================================================================
-set -e
+set -ex
 
 function doGenerate ()
 {
@@ -11,7 +11,7 @@ function doGenerate ()
 
   if [[ -r $BUILD_SH ]]
   then
-    source $BUILD_SH
+    command $BUILD_SH
   fi
 
   hexo clean

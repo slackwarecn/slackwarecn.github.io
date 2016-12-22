@@ -2,7 +2,7 @@
 # ==============================================================================
 # Serve It!
 # ==============================================================================
-set -e
+set -ex
 
 function doServe ()
 {
@@ -11,7 +11,7 @@ function doServe ()
 
   if [[ -r $GENERATE_SH ]]
   then
-    source $GENERATE_SH
+    command $GENERATE_SH
   fi
 
   hexo server

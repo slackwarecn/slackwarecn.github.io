@@ -5,13 +5,13 @@ comments: false
 
 # 为什么会有这个社区
 
-你可以在[这个页面][ID_ABOUT]了解到Slackware 中文社区建立的初衷和愿景。
+你可以在[这个页面][ID-ABOUT]了解到Slackware 中文社区建立的初衷和愿景。
 
-[ID_ABOUT]: /About "为什么会有这个社区"
+[ID-ABOUT]: /About "为什么会有这个社区"
 
 # 我该如何加入
 
-你可以给[组织主页][ID_GITHUB]的邮箱地址发一份邮件，说明你的情况。你必须有一个**只**属于你的、可用的**Github 账号**。如果你的情况适合，我们会给你发一封邀请邮件。
+你可以给[组织主页][ID-GITHUB]的邮箱地址发一份邮件，说明你的情况。你必须有一个**只**属于你的、可用的**Github 账号**。如果你的情况适合，我们会给你发一封邀请邮件。
 
 我们期待你：
 
@@ -26,9 +26,9 @@ comments: false
 1. 写了一个方便Slackware 用户的小脚本
 2. 翻译了一份关于Slackware 的有用文档
 
-希望你能够想起来有这么一个地方，并在我们的[组织主页][ID_GITHUB]上创建项目和Slackware 的众多用户一起分享你的成果。
+希望你能够想起来有这么一个地方，并在我们的[组织主页][ID-GITHUB]上创建项目和Slackware 的众多用户一起分享你的成果。
 
 你可以把这里看成是一个存放有趣小玩意儿的仓库，平时的生活中你可以暂时忘掉这里，但是欢迎闲暇之余回来看看。
 
-[ID_GITHUB]: https://github.com/slackwarecn "访问Github 组织主页"
+[ID-GITHUB]: https://github.com/slackwarecn "访问Github 组织主页"
 
