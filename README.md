@@ -26,13 +26,37 @@ Only do this at the very beginning.
 ./serve.sh
 ```
 
-Then visit [127.0.0.1:4000](http://127.0.0.1:4000) in your web browser.
+Then visit [localhost:4000](http://localhost:4000) in your web browser.
+
+## PUSH
+
+```shell
+git add .
+git status
+git commit -S -m $(date +'v%Y-%m-%d')
+./push.sh
+```
+
+This will push source which for website generate to 'source' branch.
+
+If you had done a push this day, add a suffix after date in commit message, like `git commit -S -m $(date +'v%Y-%m-%d.2')`.
 
 ## DEPLOY
 
 ```shell
 ./deploy.sh
 ```
+
+This will push html of website to 'master' branch and [slackwarecn.github.io](http://slackwarecn.github.io) will change.
+
+## IN A WORD
+
+If you want to change website, do
+
+1. Do something in this repo
+2. Run `./serve.sh` then visit [localhost:4000](http://localhost:4000).
+3. If all ok, run `./deploy.sh`, then commit changes with git and run `./push.sh`.
+4. Visit [slackwarecn.github.io](http://slackwarecn.github.io).
 
 # DEPENDENCIES
 
@@ -43,7 +67,7 @@ Then visit [127.0.0.1:4000](http://127.0.0.1:4000) in your web browser.
 
 # COPYRIGHT
 
-Copyright (c) 2016 The Slackware Linux CN Community
+Copyright (c) 2016-2017 The Slackware Linux CN Community
 
 # LICENSE
 
