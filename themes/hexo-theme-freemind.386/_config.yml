@@ -1,48 +1,54 @@
-slogan: "Keep and carry on."
-
-show_heart: true
-
-show_slogan: true
+slogan: "Welcome To Slackware Linux CN Community."
 
 menu:
-  - title: Archives
+  - title: 归档
     url: archives
-    intro: "All the articles."
-    # icon: "fa fa-archive"
-  - title: Categories
-    url: categories
-    intro: "All the categories."
-    # icon: "fa fa-folder"
-  - title: Tags
-    url: tags
-    intro: "All the tags."
-    # icon: "fa fa-tags"
-  - title: About
-    url: about
-    intro: "About me."
-    # icon: "fa fa-user"
+    #intro: ""
+    icon: "fa fa-archive"
+  - title: 关于
+    url: About
+    #intro: "About me."
+    icon: "fa fa-user"
+  - title: 加入我们
+    url: JoinUs
+    #intro: "About me."
+    icon: "fa fa-user"
   - title: RSS
     url: atom.xml
     intro: "Subscribe me."
-    # icon: "fa fa-user"
+    icon: "fa fa-user"
 
 links:
-  - title: Freemind
-    url: https://github.com/wzpan/hexo-theme-freemind
-    intro: "Freemind's Github repository."
-    icon: "fa fa-github"
-  - title: BOOTSTRA.386
-    url: https://github.com/kristopolous/BOOTSTRA.386
-    intro: "BOOTSTRA.386's Github repository."
-    icon: "fa fa-github"
-  - title: Freemind.386
-    url: https://github.com/blackshow/hexo-theme-freemind.386
-    intro: "Freemind.386's Github repository."
-    icon: "fa fa-github"
-  - title: "My Github"
-    url: http://www.github.com/blackshow
-    intro: "My Github account."
-    icon: "fa fa-github"
+  - title: Slackware Linux
+    url: http://www.slackware.com
+    intro: "The Slackware Linux Project"
+  - title: Security Mail List
+    url: http://www.slackware.com/security
+    intro: "Slackware 官方安全通知邮件列表的Web 页面"
+  - title: SlackBuilds
+    url: https://slackbuilds.org
+    intro: "Slackware 半官方支持的额外软件仓库"
+  - title: SBOPKG
+    url: https://www.sbopkg.org
+    intro: "SlackBuilds 的文本界面客户端"
+  - title: Alien's SlackBuilds
+    url: http://www.slackware.com/~alien/slackbuilds
+    intro: "部分SlackBuilds 的二进制包"
+  - title: slackwarecn
+    url: https://github.com/slackwarecn
+    intro: "Slackware 中文社区的GitHub"
+  - title: SlackBook
+    url: http://www.slackbook.org
+    intro: "Slackware 用户手册"
+  - title: SlackDocs
+    url: http://docs.slackware.com
+    intro: "Slackare 的维基"
+  - title: 百度Slackware 吧
+    url: http://tieba.baidu.com/f?kw=slackware
+    intro: "Slackware 中文用户的聚集地"
+  - title: Slackware 技术支持
+    url: http://www.slackware.com.cn
+    intro: "个人性质的Slackware 使用心得和技巧记录网站"
   # - title: "My LinkedIn"
   #   url: http://www.linkedin.com/in/xxx
   #   intro: "My Linkin account."
@@ -55,19 +61,19 @@ widgets:
 - recent_posts
 - links
 
-rss: 
+rss: /atom.xml
 fancybox: true
-favicon: favicon.png
-duoshuo_shortname:
+favicon: img/avatar.jpg
+duoshuo_shortname: slackwarecn
 
 
 # Analytics (change to yours)
 google_analytics:
-  enable: true
-  siteid: UA-70812759-1
+  enable: false
+  siteid:
 baidu_tongji:
-  enable: true
-  siteid: cb5448498d7169c668b07c2b255d62c1
+  enable: false
+  siteid:
 
 # search
 #swiftype_key: ZP2ZSuHgipSZfRyU8uTR
