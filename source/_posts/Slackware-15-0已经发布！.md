@@ -1,4 +1,4 @@
-title: 'Slackware 14.2 已经发布！'
+title: 'Slackware 15.0 已经发布！'
 date: 2022-07-23 18:21:00
 categories: [ 官方信息发布 ]
 tags: [ 文档翻译 ]
