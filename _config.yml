@@ -75,6 +75,6 @@ theme: hexo-theme-freemind.386
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/Slackwarecn/slackwarecn.github.io.git
+  repository: git@github.com:slackwarecn/slackwarecn.github.io.git
   branch: master
 
