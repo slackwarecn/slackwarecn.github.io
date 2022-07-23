@@ -14,25 +14,31 @@ This is source of [slackwarecn.github.io][id_site].
 
 ## Usage
 
-### INIT
+### Init
 
-```sh
+```shell
 git clone https://github.com/slackwarecn/slackwarecn.github.io.git
 cd ./slackwarecn.github.io/
 npm install
 ```
 
+### Format
+
+```shell
+npm run format
+```
+
 ### Build and Serve
 
-```sh
+```shell
 npm run serve
 ```
 
 > Then visit [localhost:4000](http://localhost:4000) in browser.
 
-### Push
+### Deploy
 
-```bash
+```shell
 npm run deploy
 ```
 
