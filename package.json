@@ -15,7 +15,7 @@
   "dependencies": {
     "hexo": "6.3.0",
     "hexo-cli": "4.3.0",
-    "hexo-deployer-git": "3.0.0",
+    "hexo-deployer-git": "4.0.0",
     "hexo-generator-archive": "2.0.0",
     "hexo-generator-category": "2.0.0",
     "hexo-generator-feed": "3.0.0",
@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "prettier": "2.8.3",
-    "npm-check-updates": "16.6.4"
+    "npm-check-updates": "16.6.5"
   }
 }
