@@ -1,1 +1,68 @@
-../../../pages/404.html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>页面不存在</title>
+  <style>
+    body {
+      margin:0;
+    }
+    a {
+      display: inline-block;
+      margin-top: 2em;
+      text-decoration: none;
+      color: black;
+      transition: transform 1s;
+    }
+    a:hover {
+      color: red;
+      text-shadow: 0px 0px 10px red;
+      transform: rotate(360deg);
+    }
+    #fullpage {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: absolute;
+      background-image:
+        url("/images/404-background.jpg");
+      background-position: center;
+    }
+    #center {
+      width: 80%;
+      height: 70%;
+      position: absolute;
+      top: 15%;
+      left: 10%;
+      background-color: white;
+      opacity: 0.5;
+      box-shadow: 2px 3px 5px black;
+      border-radius: 5px 5px;
+    }
+    #title {
+      font-size: 3em;
+      opacity: 1;
+      text-align: center;
+      font-weight: bold;
+      padding: 0.5em;
+    }
+    #content {
+      padding: 2em;
+      height: 2em;
+      line-height: 2em;
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+  <div id="fullpage">
+    <div id="center">
+      <div id="title">404 Not Found</div>
+      <div id="content">您要查看的页面不存在<br/>
+      <a href="/">&gt; Back &lt;</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
