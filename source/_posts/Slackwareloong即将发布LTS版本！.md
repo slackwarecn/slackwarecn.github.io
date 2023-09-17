@@ -1,7 +1,7 @@
 title: 'Slackwareloong即将发布LTS版本！'
 date: 2023-09-04 21:21:00
-categories: [ 官方信息发布 ]
-tags: [ Slackwareloong更新 ]
+categories: [ 社区信息发布 ]
+tags: [ Slackwareloong ]
 
 ---
 
