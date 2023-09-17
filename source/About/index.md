@@ -15,4 +15,4 @@ Slackware Linux 14.2 即将发布，这成了我去实现酝酿已久的 Slackwa
 
 ---
 
-2016 年春，[I&ME](http://arondight.github.io)。
+与 2016 年春。

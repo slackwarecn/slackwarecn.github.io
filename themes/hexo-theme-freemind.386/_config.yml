@@ -24,35 +24,19 @@ links:
     intro: "The Slackware Linux Project"
   - title: Security Mail List
     url: http://www.slackware.com/security
-    intro: "Slackware 官方安全通知邮件列表的Web 页面"
-  - title: SlackBuilds
-    url: https://slackbuilds.org
-    intro: "Slackware 半官方支持的额外软件仓库"
-  - title: SBOPKG
-    url: https://www.sbopkg.org
-    intro: "SlackBuilds 的文本界面客户端"
-  - title: Alien's SlackBuilds
-    url: http://www.slackware.com/~alien/slackbuilds
-    intro: "部分SlackBuilds 的二进制包"
-  - title: slackwarecn
-    url: https://github.com/slackwarecn
-    intro: "Slackware 中文社区的GitHub"
-  - title: SlackBook
-    url: http://www.slackbook.org
-    intro: "Slackware 用户手册"
+    intro: "Slackware 安全通知"
   - title: SlackDocs
     url: http://docs.slackware.com
-    intro: "Slackare 的维基"
-  - title: 百度Slackware 吧
-    url: http://tieba.baidu.com/f?kw=slackware
-    intro: "Slackware 中文用户的聚集地"
-  - title: Slackware 技术支持
-    url: http://www.slackware.com.cn
-    intro: "个人性质的Slackware 使用心得和技巧记录网站"
-  # - title: "My LinkedIn"
-  #   url: http://www.linkedin.com/in/xxx
-  #   intro: "My Linkin account."
-  #   icon: "fa fa-linkedin"
+    intro: "Slackare 文档"
+  - title: The Slackware Linux CN Community
+    url: https://github.com/slackwarecn
+    intro: "Slackware 中文社区的 GitHub 组织"
+  - title: SlackBuilds
+    url: https://slackbuilds.org
+    intro: "Slackware 用户社区贡献的软件包"
+  - title: Alien's SlackBuilds
+    url: http://www.slackware.com/~alien/slackbuilds
+    intro: "部分 SlackBuilds 的二进制包"
 
 widgets:
 - search
