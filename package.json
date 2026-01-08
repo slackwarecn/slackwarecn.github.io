@@ -13,7 +13,7 @@
     "ncu": "npx ncu -u && npm update"
   },
   "dependencies": {
-    "hexo": "7.3.0",
+    "hexo": "8.1.1",
     "hexo-cli": "4.3.2",
     "hexo-deployer-git": "4.0.0",
     "hexo-generator-archive": "2.0.0",
@@ -29,7 +29,7 @@
     "hexo-server": "3.0.0"
   },
   "devDependencies": {
-    "prettier": "3.6.0",
-    "npm-check-updates": "18.0.1"
+    "prettier": "3.7.4",
+    "npm-check-updates": "19.3.1"
   }
 }
